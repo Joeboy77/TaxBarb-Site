@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 560px;
+    height: 760px;
     position: absolute;
     top: 0;
     left: 0;
@@ -52,6 +52,9 @@ header {
     text-transform: capitalize;
     margin-left: 99px;
 }
+.hero {
+    margin-top: -30px;
+}
 .make {
     color: #FFF;
     font-family: "Roboto Serif";
@@ -75,8 +78,108 @@ header {
     margin-left: 99px;
     margin-top: -80px;
 }
+.button {
+    height: 60px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #D99F5F;
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.69px;
+    text-transform: capitalize;
+    margin-left: 99px;
+    margin-top: -20px;
+}
 .info {
-    width: 70%;
-    height: 100px;
+    width: 80%;
+    height: 150px;
     background-color: #000;
+    margin-top: 50px;
+}
+.contactInfo{
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contactInfo a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.69px;
+}
+.number,
+.locText,
+.timeDet
+ {
+    margin-left: 20px;
+}
+.contactInfo p {
+    margin-top: 0;
+}
+.contactInfo img {
+    width: 50px;
+    height: 50px;
+}
+.location {
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+}
+.locText .precise,
+.time
+ {
+    margin-top: -20px;
+}
+.location img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.time {
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.time img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
 }
