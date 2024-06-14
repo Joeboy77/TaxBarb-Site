@@ -364,6 +364,9 @@ footer {
     padding-left: 30px;
     border: none;
 }
+.mail input:focus{
+    outline: none;
+}
 .mail button{
     background-color: blue;
     border: none;
