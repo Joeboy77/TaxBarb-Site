@@ -116,12 +116,17 @@ header {
     text-transform: capitalize;
     margin-left: 99px;
     margin-top: -20px;
+    border: none;
+}
+.button:hover{
+    opacity: 0.6;
 }
 .info {
     width: 80%;
     height: 150px;
     background-color: #000;
     margin-top: 50px;
+    float: left;
 }
 .contactInfo{
     color: #FFF;
@@ -243,4 +248,226 @@ main {
     line-height: normal;
     letter-spacing: 0.72px;
     text-align: center;
+}
+.barb {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.barb img {
+    width: 390px;
+    height: 353px;
+}
+.barb button {
+    width: 145px;
+    height: 58px;
+    background-color: #9C764C;
+    color: #fff;
+    font-family: 'inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 100px;
+
+}
+.barb button:hover{
+    opacity: 0.8;
+}
+section {
+    display: flex;
+}
+.barb2 {
+    margin-top: 195px;
+}
+article {
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+    background: url(./images/back2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbox {
+    width: 80%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.elegance {
+    color: #000;
+    font-family: "Roboto Serif";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.ninety {
+    color: #757272;
+    font-family: "Roboto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-left: 80px;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    border: 3px solid #FFF;
+    background-color: #B58550;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 40px;
+}
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.map p {
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+.community p {
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.mail input{
+    width: 250px;
+    height: 50px;
+    padding-left: 30px;
+    border: none;
+}
+.mail button{
+    background-color: blue;
+    border: none;
+    height: 50px;
+}
+.mail img {
+    width: 40px;
+    height: 30px;
+}
+.mail{
+    display: flex;
+}
+.compName p{
+    color: #FFF;
+    font-family: "Leckerli One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: -10px;
+}
+.compName img {
+    margin-top: 60px;
+}
+.socialMedia {
+    margin-left: 150px;
+}
+.socialMedia img {
+    margin-left: 30px;
+}
+
+
+.scroll-watcher{
+    position: fixed;
+    height: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: lime;
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+@keyframes scroll-watcher{
+    to{
+        scale: 1 1;
+    }
+}
+
+
+header, main {
+    animation: fade-in 2s ease-in-out;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.navigate, .button, .barb button {
+    animation: slide-in 1.5s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.taxBarb, .make, .stylish {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+footer .socialMedia img, .media img {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
 }
