@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 760px;
+    height: 750px;
     position: absolute;
     top: 0;
     left: 0;
@@ -182,4 +182,17 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-left: 40px;
+}
+.media {
+    width: 40%;
+    height: 90px;
+    background-color: #D99F5F;
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+.media img {
+    margin-left: 30px;
 }
