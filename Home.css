@@ -1,12 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.scroll-watcher{
+    position: fixed;
+    height: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: lime;
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+@keyframes scroll-watcher{
+    to{
+        scale: 1 1;
+    }
+}
 header {
     width: 100%;
     height: 750px;
-    position: absolute;
+    position: relative;
     top: 0;
-    left: 0;
     right: 0;
+    left: 0;
     background: url(./images/main-background.png);
     background-size: cover;
+    margin-top: -30px;
+    padding-top: 10px;
+    margin-left: -7px;
+    flex: 1;
+    
 }
 .headerMain {
     margin-left: 99px;
@@ -195,4 +222,17 @@ header {
 }
 .media img {
     margin-left: 30px;
+}
+main {
+    position: relative;
+}
+.barbers {
+    color: #000;
+    font-family: "Roboto Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: capitalize;
 }
