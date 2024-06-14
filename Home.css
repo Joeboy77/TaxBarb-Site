@@ -1,8 +1,4 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .scroll-watcher{
     position: fixed;
     height: 10px;
@@ -235,4 +231,16 @@ main {
     line-height: normal;
     letter-spacing: 1.44px;
     text-transform: capitalize;
+    margin-top: 100px;
+    text-align: center;
+}
+.smallText {
+    color: #949292;
+    font-family: "Roboto Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-align: center;
 }
