@@ -1,0 +1,85 @@
+
+header {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url(./images/Rectangle\ 21.png);
+    background-size: cover;
+    margin-top: -30px;
+    padding-top: 10px;
+    margin-left: -7px;
+    flex: 1;
+}
+
+.navigate {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about,
+.booking,
+.contact
+ {
+    color: #FFF;
+    font-family: "inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.taxBarb {
+    color: #FFF;
+    font-family: "Leckerli One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 99px;
+}
+.home {
+    color: #FFD7AB;
+    font-family: inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.media {
+    width: 40%;
+    height: 90px;
+    background-color: #D99F5F;
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+.media img {
+    margin-left: 30px;
+}
+
+.location img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+
+
+.headerMain {
+    margin-left: 99px;
+    margin-top: 28px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
