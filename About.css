@@ -24,6 +24,7 @@ header {
 .home,
 .booking,
 .contact
+
  {
     color: #FFF;
     font-family: "inter";
@@ -108,17 +109,33 @@ header {
 
 .secondBackground {
     background-color: #FFF;
-    height: 900px;
-    
-    
+    height: 900px; 
 }
 
 .secondBackgroundContentContainer {
     background-color: #FFF;
     height: 593px;
+    width: 800px;
     margin-top: 160px;
     margin-left: 20px;
-    
+    align-items: center;
+    justify-content: center;
+}
+
+.ourHistoryText {
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto Serif";
+    align-self: center;
+    line-height: auto;
+    margin-left: 450px;
+    margin-top: -300px;
+}
+
+.ourHistoryTextInfo {
+    font-family: "Roboto Serif";
+    margin-left: 350px;
+    font-size: 18;
 }
 
     
