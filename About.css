@@ -6,12 +6,13 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    background: url(./images/Rectangle\ 21.png);
+    background: url(./images/back.png);
     background-size: cover;
     margin-top: -30px;
     padding-top: 10px;
     margin-left: -7px;
     flex: 1;
+    opacity: 56px;
 }
 
 .navigate {
@@ -20,7 +21,7 @@ header {
     justify-content: space-between;
 }
 
-.about,
+.home,
 .booking,
 .contact
  {
@@ -34,15 +35,18 @@ header {
 }
 .taxBarb {
     color: #FFF;
-    font-family: "Leckerli One";
+    font-family: "Roboto-Serif";
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
     margin-left: 99px;
+    margin-top: 180px;
+    font-weight: bold;
 }
-.home {
+
+.about {
     color: #FFD7AB;
     font-family: inter;
     font-size: 24px;
@@ -52,10 +56,9 @@ header {
     text-transform: capitalize;
 }
 
-
 .media {
-    width: 40%;
-    height: 90px;
+    width: 100%;
+    height: 80px;
     background-color: #D99F5F;
     float: right;
     display: flex;
@@ -63,17 +66,15 @@ header {
     align-items: center;
     padding-left: 40px;
 }
+.media-main{
+
+    position:absolute;
+    top: 680px;
+    left: 435px;
+}
 .media img {
     margin-left: 30px;
 }
-
-.location img {
-    width: 50px;
-    height: 50px;
-    margin-top: 15px;
-}
-
-
 
 .headerMain {
     margin-left: 99px;
@@ -83,3 +84,43 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.aboutUsInfoContainer {
+    margin-left: 90px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #161010;
+    opacity: 50%;
+    width: 280px;
+    height: 220px;
+    border-radius: 20px;
+
+}
+
+.aboutUsText {
+    font-family: "Roboto-Serif";
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.secondBackground {
+    background-color: #FFF;
+    height: 900px;
+    
+    
+}
+
+.secondBackgroundContentContainer {
+    background-color: #FFF;
+    height: 593px;
+    margin-top: 160px;
+    margin-left: 20px;
+    
+}
+
+    
+
+
