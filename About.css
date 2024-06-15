@@ -71,7 +71,7 @@ header {
 
     position:absolute;
     top: 680px;
-    left: 435px;
+    left: 864px;
 }
 .media img {
     margin-left: 30px;
@@ -115,7 +115,7 @@ header {
 .secondBackgroundContentContainer {
     background-color: #FFF;
     height: 593px;
-    width: 800px;
+    width: 100%;
     margin-top: 160px;
     margin-left: 20px;
     align-items: center;
