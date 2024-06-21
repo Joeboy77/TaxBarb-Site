@@ -425,4 +425,30 @@ footer {
     to{
         scale: 1 1;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+
+
+.navigate, .button, .barb button {
+    animation: slide-in 1.5s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+>>>>>>> 77174503818d2f42e025d6f6b6d97c5c991a35aa
