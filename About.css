@@ -51,7 +51,7 @@ header {
 
 .about {
     color: #FFD7AB;
-    font-family: inter;
+    font-family: "inter";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -71,11 +71,11 @@ header {
 }
 
 .media-main{
-
     position:absolute;
     top: 670px;
     left: 863px;
 }
+
 .media img {
     margin-left: 30px;
 }
@@ -193,7 +193,7 @@ header {
     grid-row: 2/3;
     justify-self: center;
     align-self: center;
-    left: 50px;
+    margin-left: 17px;
     margin-top: 20px;
 }
 
@@ -201,13 +201,55 @@ header {
     width: 350px;
     height: 50px;
     background-color: #D99F5F;
-    margin-top: -20px;
+    margin-top: -25px;
     text-align: center;
 }
 
 .textOnPositions {
     color: #FFF;
     font-family: "Roboto Serif";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lastBackground {
+    background: url(./images/aim\ box.png);
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+}
+
+.textBoxesInLastBackground {
+    width: 370px;
+    height: 370px;
+    background-color: #D99F5F;
+    opacity: 70%;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.theTexts {
+    color: #FFF;
+    font-family: "Roboto Serif";
+    font-size: 22px;
+}
+
+.textboxHeadingsBackground {
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+    border-radius: 10px;
+    align-self: center;
+    z-index: 1;
+    align-content: center;
+}
+
+.textBoxText {
+    color: white;
 }
 
 
