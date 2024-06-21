@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 header {
     width: 100%;
     height: 750px;
@@ -8,9 +10,9 @@ header {
     left: 0;
     background: url(./images/back.png);
     background-size: cover;
-    margin-top: -30px;
+    margin-top: 30px;
     padding-top: 10px;
-    margin-left: -7px;
+    margin-left: 7px;
     flex: 1;
     opacity: 56px;
 }
@@ -67,11 +69,12 @@ header {
     align-items: center;
     padding-left: 40px;
 }
+
 .media-main{
 
     position:absolute;
-    top: 680px;
-    left: 864px;
+    top: 670px;
+    left: 863px;
 }
 .media img {
     margin-left: 30px;
@@ -114,10 +117,9 @@ header {
 
 .secondBackgroundContentContainer {
     background-color: #FFF;
-    height: 593px;
+    height: 500px;
     width: 100%;
     margin-top: 160px;
-    margin-left: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -128,15 +130,86 @@ header {
     font-family: "Roboto Serif";
     align-self: center;
     line-height: auto;
-    margin-left: 450px;
-    margin-top: -300px;
+    margin-left: 850px;
+    margin-top: -380px;
 }
 
 .ourHistoryTextInfo {
     font-family: "Roboto Serif";
-    margin-left: 350px;
-    font-size: 18;
+    margin-left: 750px;
+    margin-top: 50px;
+    font-size: 15;
+    font-weight: lighter;
 }
+
+.videoSpace {
+    margin-top: -280px;
+}
+
+.videoProperties {
+    object-fit: cover;
+}
+
+.leadership {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.leadershipText {
+    font-family: "Roboto Serif";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.positionsContainer {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.firstPosition {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 70px;
+}
+
+.secondPosition {
+    height: 350px;
+    width: 350px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 220px;
+}
+
+.thirdPosition {
+    height: 350px;
+    width: 350px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    left: 50px;
+    margin-top: 20px;
+}
+
+.infoOnPositions {
+    width: 350px;
+    height: 50px;
+    background-color: #D99F5F;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.textOnPositions {
+    color: #FFF;
+    font-family: "Roboto Serif";
+}
+
 
     
 
